@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" width="100%" height="100%" style="border-radius:12px; font-family: system-ui, -apple-system, sans-serif;">
+  <!-- Background -->
+  <rect width="520" height="440" rx="12" fill="#EBF7FF"/>
+
+  <!-- Left Side: Phone Mockup -->
+  <g transform="translate(15, 12)">
+    <!-- Outer Phone Shadow & Body -->
+    <rect x="0" y="0" width="225" height="416" rx="34" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+    <!-- Inner Phone Screen -->
+    <rect x="6" y="6" width="213" height="404" rx="28" fill="#F0F8FF"/>
+
+    <!-- Screen Content Container -->
+    <g transform="translate(6, 6)">
+      <!-- Top Notch & Status Bar -->
+      <path d="M 65 0 L 148 0 C 148 10 140 14 130 14 L 83 14 C 73 14 65 10 65 0 Z" fill="#0f172a"/>
+      <text x="24" y="19" font-size="9" font-weight="800" fill="#0f172a">15:03</text>
+      <!-- Signal / Wifi / Battery -->
+      <path d="M 172 13 h 2 v 5 h -2 z M 176 11 h 2 v 7 h -2 z M 180 9 h 2 v 9 h -2 z" fill="#0f172a"/>
+
+      <!-- App Header: Long Chau Logo -->
+      <g transform="translate(38, 38)">
+        <!-- FPT Slanted Leaves -->
+        <path d="M 4 2 h 5 l -4 14 h -5 z" fill="#0038A8"/>
+        <path d="M 11 0 h 5 l -4 18 h -5 z" fill="#F26522"/>
+        <path d="M 18 2 h 5 l -4 14 h -5 z" fill="#52B947"/>
+        <text x="2" y="23" font-size="5" font-weight="900" fill="#0038A8">FPT Retail</text>
+        
+        <!-- Brand Name -->
+        <text x="28" y="9" font-size="8" font-weight="800" fill="#0038A8">NHÀ THUỐC</text>
+        <text x="28" y="19" font-size="11" font-weight="900" fill="#0038A8">LONG CHÂU</text>
+      </g>
+
+      <!-- Form Card Overlay -->
+      <!-- Account Field -->
+      <rect x="18" y="78" width="177" height="24" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="26" y="94" font-size="8.5" font-weight="600" fill="#64748b">Account nhân viên</text>
+
+      <!-- Password Field -->
+      <rect x="18" y="110" width="177" height="24" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="26" y="126" font-size="8.5" font-weight="600" fill="#64748b">Mật khẩu</text>
+      <!-- Eye Icon -->
+      <circle cx="182" cy="122" r="4" fill="none" stroke="#64748b" stroke-width="0.8"/>
+      <circle cx="182" cy="122" r="1.5" fill="#64748b"/>
+
+      <!-- OTP Field -->
+      <rect x="18" y="142" width="177" height="24" rx="4" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <text x="26" y="158" font-size="8.5" font-weight="600" fill="#94a3b8">Mã OTP</text>
+
+      <!-- OTP Subtext -->
+      <text x="18" y="178" font-size="7.5" font-weight="700" fill="#2563eb">Tạo mã OTP nếu đăng nhập lần đầu ⓘ</text>
+
+      <!-- Login Button & Scan Icon -->
+      <rect x="18" y="188" width="140" height="24" rx="5" fill="#cbd5e1"/>
+      <text x="88" y="204" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">Đăng nhập</text>
+      <!-- QR Frame -->
+      <rect x="164" y="188" width="31" height="24" rx="5" fill="#ffffff" stroke="#cbd5e1" stroke-width="0.8"/>
+      <path d="M 174 195 h 3 v 3 h -3 z M 181 195 h 3 v 3 h -3 z M 174 202 h 3 v 3 h -3 z M 181 202 h 3 v 3 h -3 z" fill="#2563eb"/>
+
+      <!-- RED HIGHLIGHTED "Quên mật khẩu ..." -->
+      <rect x="42" y="222" width="128" height="20" rx="3" fill="#ffffff" stroke="#dc2626" stroke-width="1.8"/>
+      <text x="106" y="236" font-size="9" font-weight="800" fill="#2563eb" text-anchor="middle">Quên mật khẩu ...</text>
+
+      <!-- Bottom Graphic Background (Long Chau Store & Mascot) -->
+      <g transform="translate(0, 250)">
+        <!-- Clouds -->
+        <ellipse cx="40" cy="20" rx="30" ry="12" fill="#ffffff" opacity="0.7"/>
+        <ellipse cx="170" cy="15" rx="35" ry="14" fill="#ffffff" opacity="0.7"/>
+
+        <!-- Store Building -->
+        <rect x="10" y="35" width="85" height="60" rx="4" fill="#ffffff" stroke="#0038A8" stroke-width="1.5"/>
+        <rect x="10" y="25" width="85" height="15" fill="#0038A8"/>
+        <text x="52" y="36" font-size="8" font-weight="900" fill="#ffffff" text-anchor="middle">LONG CHÂU</text>
+        <rect x="20" y="50" width="25" height="45" fill="#dbeafe"/>
+        <rect x="55" y="50" width="30" height="45" fill="#dbeafe"/>
+
+        <!-- Mascot Character -->
+        <g transform="translate(105, 10)">
+          <!-- Blue Head/Helmet -->
+          <circle cx="45" cy="40" r="28" fill="#0038A8"/>
+          <!-- Face visor -->
+          <ellipse cx="45" cy="42" rx="22" ry="18" fill="#ffffff"/>
+          <!-- Eyes winking -->
+          <circle cx="36" cy="40" r="3" fill="#0038A8"/>
+          <path d="M 50 42 Q 54 36 58 42" fill="none" stroke="#0038A8" stroke-width="2" stroke-linecap="round"/>
+          <!-- Cheeks -->
+          <circle cx="32" cy="46" r="3" fill="#ff8a8a"/>
+          <circle cx="58" cy="46" r="3" fill="#ff8a8a"/>
+          <!-- Mouth -->
+          <path d="M 40 48 Q 45 54 50 48 Z" fill="#dc2626"/>
+
+          <!-- Body Coat -->
+          <path d="M 28 65 Q 45 60 62 65 L 68 95 L 22 95 Z" fill="#ffffff" stroke="#0038A8" stroke-width="1.5"/>
+          <path d="M 45 62 L 45 95" stroke="#0038A8" stroke-width="1"/>
+          <!-- Stethoscope -->
+          <path d="M 35 65 Q 45 78 55 65" fill="none" stroke="#2563eb" stroke-width="2"/>
+          <circle cx="45" cy="78" r="4" fill="#0038A8"/>
+
+          <!-- Holding Key/Card -->
+          <rect x="62" y="68" width="18" height="12" rx="2" fill="#2563eb"/>
+          <circle cx="68" cy="74" r="2" fill="#ffffff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Side: Instruction Text & Ribbon Badge -->
+  <g transform="translate(260, 50)">
+    <!-- Blue Ribbon Badge -->
+    <g transform="translate(15, 0)">
+      <rect x="0" y="0" width="180" height="52" rx="10" fill="#0038A8" stroke="#1d4ed8" stroke-width="1"/>
+      <path d="M -6 26 L 0 10 L 0 42 Z" fill="#002169"/>
+      <path d="M 186 26 L 180 10 L 180 42 Z" fill="#002169"/>
+      <text x="90" y="34" fill="#ffffff" font-size="24" font-weight="900" text-anchor="middle" letter-spacing="1">BƯỚC 1</text>
+    </g>
+
+    <!-- Main Text -->
+    <g transform="translate(10, 140)">
+      <text x="95" y="0" fill="#000000" font-size="28" font-weight="900" text-anchor="middle" letter-spacing="0.5">ANH CHỊ ẤN</text>
+      <text x="95" y="48" fill="#000000" font-size="28" font-weight="900" text-anchor="middle" letter-spacing="0.5">QUÊN MẬT</text>
+      <text x="95" y="96" fill="#000000" font-size="28" font-weight="900" text-anchor="middle" letter-spacing="0.5">KHẨU</text>
+    </g>
+  </g>
+</svg>

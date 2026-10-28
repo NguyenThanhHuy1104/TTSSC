@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%" style="border-radius:12px; background:#f0f4f8; font-family: system-ui, -apple-system, sans-serif;">
+  <!-- Background Card -->
+  <rect width="800" height="520" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Top Banner -->
+  <path d="M0 12 C0 5.373 5.373 0 12 0 L788 0 C794.627 0 800 5.373 800 12 L800 60 L0 60 Z" fill="#0284c7"/>
+  <text x="30" y="38" fill="#ffffff" font-size="20" font-weight="800" letter-spacing="0.5">BƯỚC 4: THÔNG BÁO THÀNH CÔNG &amp; ĐĂNG NHẬP LẠI VỚI MẬT KHẨU MỚI</text>
+
+  <!-- Left: Mobile Frame (Success Screen) -->
+  <g transform="translate(60, 80)">
+    <!-- Phone Body -->
+    <rect width="280" height="410" rx="32" fill="#0f172a" stroke="#334155" stroke-width="3"/>
+    <rect x="10" y="10" width="260" height="390" rx="24" fill="#ffffff"/>
+
+    <!-- Status Bar -->
+    <text x="28" y="28" font-size="11" font-weight="700" fill="#0f172a">15:07</text>
+
+    <!-- Success Green Circle -->
+    <circle cx="140" cy="140" r="36" fill="#16a34a"/>
+    <path d="M 125 140 L 135 150 L 158 128" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Success Message -->
+    <text x="140" y="210" font-size="14" font-weight="800" fill="#15803d" text-anchor="middle">Đặt lại mật khẩu thành công.</text>
+    <text x="140" y="235" font-size="11" font-weight="600" fill="#475569" text-anchor="middle">Bạn có thể đăng nhập với mật khẩu mới.</text>
+
+    <!-- Return button mock -->
+    <rect x="40" y="280" width="200" height="34" rx="8" fill="#0284c7"/>
+    <text x="140" y="302" font-size="11" font-weight="700" fill="#ffffff" text-anchor="middle">Quay lại Đăng nhập</text>
+
+    <!-- URL Bar at bottom of phone -->
+    <rect x="25" y="360" width="210" height="22" rx="11" fill="#f1f5f9"/>
+    <text x="130" y="375" font-size="9" font-weight="600" fill="#64748b" text-anchor="middle">reset-pass.frt.vn</text>
+  </g>
+
+  <!-- Right: Step Instructions & Critical Warning -->
+  <g transform="translate(380, 110)">
+    <!-- Step Badge -->
+    <rect x="0" y="0" width="150" height="44" rx="22" fill="#0284c7"/>
+    <text x="75" y="28" fill="#ffffff" font-size="18" font-weight="800" text-anchor="middle">BƯỚC 4</text>
+
+    <!-- Main Instruction -->
+    <text x="0" y="80" fill="#0f172a" font-size="18" font-weight="800">
+      HỆ THỐNG THÔNG BÁO THÀNH CÔNG
+    </text>
+    <text x="0" y="110" fill="#0284c7" font-size="20" font-weight="900">
+      BẮT ĐẦU ĐĂNG NHẬP LẠI
+    </text>
+    <text x="0" y="135" fill="#0f172a" font-size="16" font-weight="700">
+      BẰNG MẬT KHẨU MỚI VỪA TẠO
+    </text>
+
+    <!-- CRITICAL WARNING BOX (MATCHING INFOGRAPHIC BOTTOM BANNER) -->
+    <rect x="0" y="165" width="370" height="175" rx="12" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+
+    <!-- Warning Header -->
+    <g transform="translate(15, 182)">
+      <!-- Triangle Warning Icon -->
+      <path d="M 16 0 L 32 28 L 0 28 Z" fill="#f97316"/>
+      <text x="16" y="24" fill="#ffffff" font-size="18" font-weight="900" text-anchor="middle">!</text>
+      <text x="42" y="20" fill="#c2410c" font-size="18" font-weight="900">LƯU Ý CỰC KỲ QUAN TRỌNG:</text>
+    </g>
+
+    <!-- Warning Text -->
+    <text x="15" y="235" fill="#7c2d12" font-size="13" font-weight="800" width="340">
+      SAU KHI THAO TÁC Ở BƯỚC 2:
+    </text>
+    <text x="15" y="260" fill="#9a3412" font-size="13" font-weight="700">
+      • ANH CHỊ KIỂM TRA NGAY TIN NHẮN Ở FPTCHAT.
+    </text>
+    <text x="15" y="285" fill="#dc2626" font-size="13" font-weight="900">
+      • LINK SẼ HẾT HẠN TRONG 10 PHÚT!
+    </text>
+    <text x="15" y="310" fill="#7c2d12" font-size="12" font-weight="600">
+      Nếu quá 10 phút chưa thao tác, cần thực hiện lại từ Bước 1.
+    </text>
+  </g>
+</svg>

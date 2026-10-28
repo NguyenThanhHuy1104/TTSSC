@@ -1,0 +1,64 @@
+{
+  "enabled": true,
+  "defaultReply": "⚠️ **Cảnh báo vi phạm nội dung:**\nTin nhắn của bạn chứa từ khóa không phù hợp hoặc mang tính chất spam. Trợ lý ảo SSC chỉ hỗ trợ tra cứu nghiệp vụ Quy chế xử lý kỷ luật và Barcode sản phẩm FPT Retail & Long Châu. Vui lòng gửi câu hỏi đúng quy định hỗ trợ công việc shop!",
+  "rules": [
+    {
+      "id": "spam-1",
+      "keyword": "đm",
+      "customReply": "",
+      "enabled": true,
+      "createdAt": 1700000000001
+    },
+    {
+      "id": "spam-2",
+      "keyword": "dcm",
+      "customReply": "",
+      "enabled": true,
+      "createdAt": 1700000000002
+    },
+    {
+      "id": "spam-3",
+      "keyword": "vcl",
+      "customReply": "",
+      "enabled": true,
+      "createdAt": 1700000000003
+    },
+    {
+      "id": "spam-4",
+      "keyword": "chửi",
+      "customReply": "",
+      "enabled": true,
+      "createdAt": 1700000000004
+    },
+    {
+      "id": "spam-5",
+      "keyword": "lừa đảo",
+      "customReply": "",
+      "enabled": true,
+      "createdAt": 1700000000005
+    },
+    {
+      "id": "spam-6",
+      "keyword": "quảng cáo",
+      "customReply": "",
+      "enabled": true,
+      "createdAt": 1700000000006
+    },
+    {
+      "id": "spam-7",
+      "keyword": "vay tiền",
+      "customReply": "⚠️ Trợ lý ảo SSC không hỗ trợ các dịch vụ tài chính/vay tiền cá nhân. Vui lòng chỉ đặt câu hỏi liên quan đến nghiệp vụ shop!",
+      "enabled": true,
+      "createdAt": 1700000000007
+    },
+    {
+      "id": "spam-8",
+      "keyword": "cờ bạc",
+      "customReply": "",
+      "enabled": true,
+      "createdAt": 1700000000008
+    }
+  ],
+  "updatedAt": "2026-10-26T04:40:00.000Z",
+  "updatedBy": "admin"
+}

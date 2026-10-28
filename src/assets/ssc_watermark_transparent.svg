@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="100%" fill="none">
+  <!-- Left: FPT Retail Logo -->
+  <g transform="translate(45, 50)">
+    <!-- 1st Slashes (Blue) -->
+    <path d="M 40 40 
+             C 40 18, 55 5, 80 5 
+             L 115 5 
+             C 120 5, 122 8, 120 14 
+             L 75 110 
+             C 60 145, 30 145, 5 145 
+             L 5 145 
+             C 0 145, -2 142, 0 136 
+             L 30 55 
+             Z" 
+          fill="#00439F" />
+
+    <!-- 2nd Slash (Orange Center) -->
+    <path d="M 105 20 
+             C 115 5, 135 -2, 155 0 
+             C 165 2, 170 10, 166 22 
+             L 125 125 
+             C 115 150, 95 155, 75 150 
+             C 65 148, 62 140, 66 128 
+             Z" 
+          fill="#F37021" />
+
+    <!-- 3rd Slash (Green Right) -->
+    <path d="M 160 30 
+             C 175 25, 205 22, 230 25 
+             C 236 26, 238 32, 234 38 
+             L 205 105 
+             C 195 125, 175 135, 150 135 
+             L 142 135 
+             C 136 135, 134 130, 137 122 
+             L 155 45 
+             Z" 
+          fill="#5CB844" />
+
+    <!-- Text: FPT Retail -->
+    <text x="18" y="195" 
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" 
+          font-size="34" 
+          font-weight="800" 
+          letter-spacing="0.5" 
+          fill="currentColor">
+      FPT Retail
+    </text>
+  </g>
+
+  <!-- Right: TRUNG TÂM SSC 87333 -->
+  <g transform="translate(315, 135)">
+    <!-- Line 1: TRUNG TÂM -->
+    <text x="0" y="0" 
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" 
+          font-size="68" 
+          font-weight="900" 
+          letter-spacing="1.5" 
+          fill="currentColor">
+      TRUNG TÂM
+    </text>
+
+    <!-- Line 2: SSC 87333 -->
+    <text x="0" y="130" 
+          font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" 
+          font-size="126" 
+          font-weight="900" 
+          letter-spacing="-1" 
+          fill="currentColor">
+      SSC 87333
+    </text>
+  </g>
+</svg>

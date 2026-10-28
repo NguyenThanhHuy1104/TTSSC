@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%" style="border-radius:12px; background:#f0f4f8; font-family: system-ui, -apple-system, sans-serif;">
+  <!-- Background Card -->
+  <rect width="800" height="520" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Top Banner -->
+  <path d="M0 12 C0 5.373 5.373 0 12 0 L788 0 C794.627 0 800 5.373 800 12 L800 60 L0 60 Z" fill="#6b21a8"/>
+  <text x="30" y="38" fill="#ffffff" font-size="20" font-weight="800" letter-spacing="0.5">BƯỚC 3: MỞ LINK TỪ FPTCHAT, NHẬP MẬT KHẨU MỚI, OTP &amp; XÁC NHẬN</text>
+
+  <!-- Left: Mobile Frame (reset-pass.frt.vn) -->
+  <g transform="translate(60, 80)">
+    <!-- Phone Body -->
+    <rect width="280" height="410" rx="32" fill="#0f172a" stroke="#334155" stroke-width="3"/>
+    <rect x="10" y="10" width="260" height="390" rx="24" fill="#ffffff"/>
+
+    <!-- Status Bar -->
+    <text x="28" y="28" font-size="11" font-weight="700" fill="#0f172a">15:07</text>
+
+    <!-- Page Title -->
+    <text x="130" y="55" font-size="13" font-weight="800" fill="#0f172a" text-anchor="middle">Đặt lại mật khẩu</text>
+
+    <!-- Password Rules Box inside Phone -->
+    <rect x="22" y="65" width="216" height="80" rx="6" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+    <text x="28" y="78" font-size="8.5" font-weight="700" fill="#dc2626">Mật khẩu phải có:</text>
+    <text x="28" y="90" font-size="8" font-weight="600" fill="#991b1b">• Ít nhất 8 ký tự</text>
+    <text x="28" y="101" font-size="8" font-weight="600" fill="#991b1b">• Có chữ hoa (A-Z) | Có chữ thường (a-z)</text>
+    <text x="28" y="112" font-size="8" font-weight="600" fill="#991b1b">• Có chữ số (0-9)</text>
+    <text x="28" y="123" font-size="8" font-weight="600" fill="#991b1b">• Không trùng với các từ khóa quá ngắn</text>
+
+    <!-- Password Inputs -->
+    <text x="25" y="160" font-size="9" font-weight="600" fill="#475569">Mật khẩu mới:</text>
+    <rect x="25" y="166" width="210" height="26" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+
+    <text x="25" y="206" font-size="9" font-weight="600" fill="#475569">Xác nhận mật khẩu:</text>
+    <rect x="25" y="212" width="210" height="26" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+
+    <text x="25" y="252" font-size="9" font-weight="600" fill="#475569">Mã OTP:</text>
+    <rect x="25" y="258" width="210" height="26" rx="5" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5"/>
+
+    <!-- Confirm Button -->
+    <rect x="25" y="296" width="210" height="32" rx="6" fill="#2563eb"/>
+    <text x="130" y="316" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">Xác nhận</text>
+
+    <!-- URL Bar at bottom of phone -->
+    <rect x="25" y="360" width="210" height="22" rx="11" fill="#f1f5f9"/>
+    <text x="130" y="375" font-size="9" font-weight="600" fill="#64748b" text-anchor="middle">reset-pass.frt.vn</text>
+  </g>
+
+  <!-- Right: Instructions & Rules Detail -->
+  <g transform="translate(380, 110)">
+    <!-- Step Badge -->
+    <rect x="0" y="0" width="150" height="44" rx="22" fill="#6b21a8"/>
+    <text x="75" y="28" fill="#ffffff" font-size="18" font-weight="800" text-anchor="middle">BƯỚC 3</text>
+
+    <!-- Main Instructions -->
+    <text x="0" y="80" fill="#0f172a" font-size="17" font-weight="800">
+      TIN NHẮN RESET MẬT KHẨU
+    </text>
+    <text x="0" y="105" fill="#6b21a8" font-size="20" font-weight="900">
+      SẼ ĐƯỢC GỬI VỀ FPTCHAT
+    </text>
+
+    <text x="0" y="145" fill="#0f172a" font-size="16" font-weight="800">
+      ANH CHỊ NHẬP MẬT KHẨU MỚI, OTP VÀ XÁC NHẬN
+    </text>
+
+    <!-- Password Criteria Detail Box -->
+    <rect x="0" y="170" width="370" height="170" rx="10" fill="#faf5ff" stroke="#d8b4fe" stroke-width="1.5"/>
+    <text x="15" y="198" fill="#581c87" font-size="14" font-weight="800">🔒 Quy tắc đặt Mật khẩu mới bắt buộc:</text>
+    <text x="15" y="225" fill="#334155" font-size="13" font-weight="600">✓ Độ dài tối thiểu: <tspan fill="#0f172a" font-weight="800">8 ký tự trở lên</tspan></text>
+    <text x="15" y="250" fill="#334155" font-size="13" font-weight="600">✓ Bắt buộc chứa chữ HOA: <tspan fill="#0f172a" font-weight="800">(A - Z)</tspan></text>
+    <text x="15" y="275" fill="#334155" font-size="13" font-weight="600">✓ Bắt buộc chứa chữ thường: <tspan fill="#0f172a" font-weight="800">(a - z)</tspan></text>
+    <text x="15" y="300" fill="#334155" font-size="13" font-weight="600">✓ Bắt buộc chứa chữ số: <tspan fill="#0f172a" font-weight="800">(0 - 9)</tspan></text>
+  </g>
+</svg>

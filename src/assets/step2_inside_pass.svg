@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="100%" height="100%" style="border-radius:12px; background:#f0f4f8; font-family: system-ui, -apple-system, sans-serif;">
+  <!-- Background Card -->
+  <rect width="800" height="520" rx="12" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Top Banner -->
+  <path d="M0 12 C0 5.373 5.373 0 12 0 L788 0 C794.627 0 800 5.373 800 12 L800 60 L0 60 Z" fill="#15803d"/>
+  <text x="30" y="38" fill="#ffffff" font-size="20" font-weight="800" letter-spacing="0.5">BƯỚC 2: ĐIỀN USERNAME (TÊN TÀI KHOẢN) &amp; BẤM "LẤY LẠI MẬT KHẨU"</text>
+
+  <!-- Left: Mobile Frame (identity.frt.vn) -->
+  <g transform="translate(60, 80)">
+    <!-- Phone Body -->
+    <rect width="280" height="410" rx="32" fill="#0f172a" stroke="#334155" stroke-width="3"/>
+    <rect x="10" y="10" width="260" height="390" rx="24" fill="#ffffff"/>
+
+    <!-- Status Bar -->
+    <text x="28" y="28" font-size="11" font-weight="700" fill="#0f172a">15:04</text>
+
+    <!-- Page Title -->
+    <text x="130" y="65" font-size="14" font-weight="800" fill="#0f172a" text-anchor="middle">QUÊN MẬT KHẨU</text>
+
+    <!-- Input 1 -->
+    <text x="25" y="95" font-size="9" font-weight="600" fill="#64748b">Tên tài khoản / Mã email</text>
+    <rect x="25" y="102" width="210" height="28" rx="5" fill="#f8fafc" stroke="#3b82f6" stroke-width="1.5"/>
+    <text x="35" y="120" font-size="11" font-weight="700" fill="#0f172a">ANNV</text>
+
+    <!-- Input 2 -->
+    <text x="25" y="145" font-size="9" font-weight="600" fill="#64748b">Địa chỉ Email (VD)</text>
+    <rect x="25" y="152" width="210" height="28" rx="5" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1"/>
+    <text x="35" y="170" font-size="10" font-weight="500" fill="#94a3b8">ANNV@fpt.com</text>
+
+    <!-- Button 1: Lấy lại mật khẩu (RED BOX HIGHLIGHT) -->
+    <rect x="25" y="200" width="210" height="32" rx="6" fill="#15803d" stroke="#ef4444" stroke-width="2.5"/>
+    <text x="130" y="220" font-size="11" font-weight="800" fill="#ffffff" text-anchor="middle">Lấy lại mật khẩu</text>
+
+    <!-- Button 2: Đăng nhập -->
+    <rect x="25" y="242" width="210" height="26" rx="6" fill="#e2e8f0"/>
+    <text x="130" y="259" font-size="10" font-weight="600" fill="#475569" text-anchor="middle">🔒 Đăng nhập</text>
+
+    <!-- URL Bar at bottom of phone -->
+    <rect x="25" y="360" width="210" height="22" rx="11" fill="#f1f5f9"/>
+    <text x="130" y="375" font-size="9" font-weight="600" fill="#64748b" text-anchor="middle">identity.frt.vn</text>
+  </g>
+
+  <!-- Right: Step Instructions -->
+  <g transform="translate(380, 110)">
+    <!-- Step Badge -->
+    <rect x="0" y="0" width="150" height="44" rx="22" fill="#15803d"/>
+    <text x="75" y="28" fill="#ffffff" font-size="18" font-weight="800" text-anchor="middle">BƯỚC 2</text>
+
+    <!-- Instructions Text -->
+    <text x="0" y="80" fill="#0f172a" font-size="18" font-weight="800">
+      ANH CHỊ ĐIỀN THÔNG TIN USERNAME
+    </text>
+
+    <!-- Example Highlight Box -->
+    <rect x="0" y="100" width="370" height="70" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+    <text x="15" y="128" fill="#166534" font-size="14" font-weight="700">💡 Ví dụ cụ thể:</text>
+    <text x="15" y="152" fill="#0f172a" font-size="13" font-weight="600">Email là <tspan fill="#2563eb">ANNV@FPT.COM</tspan> thì điền Username là <tspan fill="#dc2626" font-size="15" font-weight="900">"ANNV"</tspan></text>
+
+    <!-- Action Step 2 -->
+    <text x="0" y="210" fill="#15803d" font-size="20" font-weight="900">
+      SAU ĐÓ ẤN "LẤY LẠI MẬT KHẨU"
+    </text>
+
+    <!-- Notice Card -->
+    <rect x="0" y="235" width="370" height="110" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+    <text x="15" y="262" fill="#c2410c" font-size="14" font-weight="800">⚡ Lưu ý sau khi bấm "Lấy lại mật khẩu":</text>
+    <text x="15" y="290" fill="#431407" font-size="13" font-weight="600">Kiểm tra ngay ứng dụng FPTChat trên máy tính/điện thoại để nhận đường dẫn khôi phục mật khẩu.</text>
+  </g>
+</svg>

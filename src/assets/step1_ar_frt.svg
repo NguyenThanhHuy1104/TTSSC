@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 380" width="100%" height="100%" style="background:#ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+  <!-- Main Background -->
+  <rect width="920" height="380" fill="#f8fafc" />
+
+  <!-- LEFT SIDEBAR -->
+  <rect x="0" y="0" width="48" height="380" fill="#032b69" />
+  
+  <!-- Logo FPT -->
+  <g transform="translate(10, 12)">
+    <rect x="0" y="0" width="8" height="18" fill="#f26522" rx="1"/>
+    <rect x="10" y="0" width="8" height="18" fill="#00a859" rx="1"/>
+    <rect x="20" y="0" width="8" height="18" fill="#0072bc" rx="1"/>
+  </g>
+
+  <!-- Sidebar Nav Icons -->
+  <g transform="translate(14, 50)">
+    <!-- Home Icon -->
+    <path d="M4 12 L10 6 L16 12 V18 H13 V14 H7 V18 H4 Z" fill="#ffffff" opacity="0.6"/>
+  </g>
+  <g transform="translate(14, 85)">
+    <!-- Document Icon -->
+    <path d="M4 3 H13 L17 7 V19 H4 Z M12 3 V8 H17" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <g transform="translate(14, 120)">
+    <!-- Info Icon -->
+    <circle cx="10" cy="10" r="7" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="10" y1="9" x2="10" y2="14" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="10" cy="6" r="1" fill="#ffffff" opacity="0.6"/>
+  </g>
+
+  <!-- Highlighted Menu Item: Dieu chinh hoa don -->
+  <rect x="0" y="150" width="48" height="40" fill="#0050b3" />
+  <g transform="translate(14, 160)">
+    <!-- Pencil / Edit Icon -->
+    <path d="M3 14 L13 4 L16 7 L6 17 H3 Z M12 5 L15 8" fill="none" stroke="#ffffff" stroke-width="1.8"/>
+  </g>
+  <!-- Red Box Highlight on Sidebar Icon -->
+  <rect x="3" y="152" width="42" height="36" fill="none" stroke="#e60000" stroke-width="2" rx="2" />
+  
+  <!-- Tooltip overlay "Điều chỉnh hoá đơn" -->
+  <path d="M48 170 L56 164 V176 Z" fill="#1e293b" />
+  <rect x="56" y="156" width="115" height="28" rx="4" fill="#1e293b" />
+  <text x="64" y="174" fill="#ffffff" font-size="11" font-weight="600">Điều chỉnh hoá đơn</text>
+
+  <g transform="translate(14, 200)">
+    <!-- Checkmark Icon -->
+    <circle cx="10" cy="10" r="7" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <path d="M7 10 L9 12 L13 8" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- TOP HEADER BAR -->
+  <g transform="translate(60, 16)">
+    <!-- Breadcrumb -->
+    <text x="0" y="12" fill="#8c8c8c" font-size="12">
+      <tspan fill="#8c8c8c">☰  Trang chủ  /  </tspan>
+      <tspan fill="#262626" font-weight="600">Điều chỉnh hóa đơn</tspan>
+    </text>
+
+    <!-- User Header Right -->
+    <g transform="translate(560, -4)">
+      <!-- User Avatar Circle -->
+      <circle cx="14" cy="14" r="12" fill="#d9d9d9"/>
+      <path d="M8 20 C8 15, 20 15, 20 20" stroke="#8c8c8c" stroke-width="1.5" fill="none"/>
+      <circle cx="14" cy="11" r="3.5" fill="#8c8c8c"/>
+
+      <text x="32" y="10" fill="#262626" font-size="11" font-weight="700">46765 - Vương Uyển Đình</text>
+      <text x="165" y="10" fill="#1890ff" font-size="10">https://duocquocgia.com.vn</text>
+      <text x="32" y="24" fill="#595959" font-size="10">80000 - HO</text>
+      <text x="110" y="24" fill="#8c8c8c" font-size="10">Chưa có Tài khoản Dược Quốc gia</text>
+
+      <!-- PROD Badge -->
+      <rect x="222" y="-2" width="38" height="22" rx="3" fill="#52c41a"/>
+      <text x="241" y="8" fill="#ffffff" font-size="8" font-weight="bold" text-anchor="middle">PROD</text>
+      <text x="241" y="17" fill="#ffffff" font-size="8" text-anchor="middle">v1.6.24</text>
+    </g>
+  </g>
+
+  <!-- SEPARATOR -->
+  <line x1="48" y1="44" x2="920" y2="44" stroke="#f0f0f0" stroke-width="1" />
+
+  <!-- MAIN TAB BAR -->
+  <g transform="translate(68, 62)">
+    <!-- Tab 1: Active -->
+    <text x="0" y="0" fill="#1890ff" font-size="12" font-weight="600">Điều chỉnh hóa đơn</text>
+    <line x1="0" y1="8" x2="108" y2="8" stroke="#1890ff" stroke-width="2" />
+
+    <!-- Tab 2: Inactive -->
+    <text x="135" y="0" fill="#595959" font-size="12">Danh sách HĐĐT đã chỉnh sửa</text>
+  </g>
+
+  <line x1="48" y1="72" x2="920" y2="72" stroke="#f0f0f0" stroke-width="1" />
+
+  <!-- SEARCH FILTERS CONTAINER -->
+  <g transform="translate(68, 88)">
+    <!-- Red Box Highlight surrounding all inputs -->
+    <rect x="-6" y="-8" width="530" height="46" fill="none" stroke="#e60000" stroke-width="2" rx="3" />
+
+    <!-- Input 1: So don hang -->
+    <text x="0" y="2" fill="#595959" font-size="11" font-weight="600">Số đơn hàng</text>
+    <rect x="0" y="8" width="120" height="24" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="8" y="24" fill="#bfbfbf" font-size="11">Nhập</text>
+
+    <!-- Input 2: Ma so thue -->
+    <text x="135" y="2" fill="#595959" font-size="11" font-weight="600">Mã số thuế</text>
+    <rect x="135" y="8" width="105" height="24" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="143" y="24" fill="#bfbfbf" font-size="11">Nhập</text>
+
+    <!-- Input 3: So dien thoai -->
+    <text x="252" y="2" fill="#595959" font-size="11" font-weight="600">Số điện thoại</text>
+    <rect x="252" y="8" width="105" height="24" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="260" y="24" fill="#bfbfbf" font-size="11">Nhập</text>
+
+    <!-- Input 4: Ngay hoa don -->
+    <text x="368" y="2" fill="#595959" font-size="11" font-weight="600">Ngày hoá đơn</text>
+    <rect x="368" y="8" width="148" height="24" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <text x="374" y="24" fill="#262626" font-size="10">20/05/2024  →  20/05/2024</text>
+    <path d="M504 15 H510 V22 H504 Z M506 13 V15 M508 13 V15" fill="none" stroke="#bfbfbf" stroke-width="1"/>
+
+    <!-- Reset Icon -->
+    <circle cx="544" cy="20" r="11" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+    <path d="M541 20 A3 3 0 1 1 547 20" fill="none" stroke="#595959" stroke-width="1.2"/>
+
+    <!-- Tim kiem Button -->
+    <rect x="564" y="8" width="75" height="26" rx="3" fill="#0052cc"/>
+    <text x="601" y="25" fill="#ffffff" font-size="11" font-weight="bold" text-anchor="middle">Tìm kiếm</text>
+    <!-- Red Box Highlight on Tim kiem Button -->
+    <rect x="562" y="6" width="79" height="30" fill="none" stroke="#e60000" stroke-width="2" rx="4" />
+  </g>
+
+  <!-- DATA TABLE -->
+  <g transform="translate(68, 142)">
+    <!-- Table Header Line -->
+    <rect x="0" y="0" width="810" height="28" fill="#e6f7ff" stroke="#bae7ff" stroke-width="1" />
+    <text x="12" y="18" fill="#262626" font-size="11" font-weight="bold">Số đơn hàng</text>
+    <text x="240" y="18" fill="#262626" font-size="11" font-weight="bold">Tên khách hàng</text>
+    <text x="480" y="18" fill="#262626" font-size="11" font-weight="bold">Số điện thoại doanh nghiệp</text>
+    <text x="680" y="18" fill="#262626" font-size="11" font-weight="bold">Mã số thuế</text>
+
+    <!-- Table Body Empty State -->
+    <rect x="0" y="28" width="810" height="190" fill="#ffffff" stroke="#f0f0f0" stroke-width="1" />
+
+    <!-- Empty Box Illustration -->
+    <g transform="translate(390, 95)">
+      <rect x="0" y="0" width="30" height="22" rx="3" fill="#f5f5f5" stroke="#d9d9d9" stroke-width="1" />
+      <path d="M0 8 L15 14 L30 8" fill="none" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="15" y="38" fill="#bfbfbf" font-size="12" text-anchor="middle">Trống</text>
+    </g>
+  </g>
+</svg>

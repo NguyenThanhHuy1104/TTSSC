@@ -1,0 +1,19 @@
+{
+  "hiddenModules": [
+    "luong-thuong",
+    "luong-thuong-thuoc",
+    "luong-thuong-ve-tinh",
+    "vi-pham"
+  ],
+  "moduleVisibility": {
+    "luong-thuong": false,
+    "luong-thuong-thuoc": false,
+    "luong-thuong-ve-tinh": false,
+    "vi-pham": false,
+    "barcode": true,
+    "links": true
+  },
+  "showWatermark": true,
+  "updatedAt": "2026-10-20T00:00:00.000Z",
+  "updatedBy": "admin"
+}

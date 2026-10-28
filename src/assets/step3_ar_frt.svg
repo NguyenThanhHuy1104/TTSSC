@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 440" width="100%" height="100%" style="background:#ffffff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">
+  <!-- Main Background -->
+  <rect width="920" height="440" fill="#f8fafc" />
+
+  <!-- LEFT SIDEBAR -->
+  <rect x="0" y="0" width="48" height="440" fill="#032b69" />
+  
+  <!-- Logo FPT -->
+  <g transform="translate(10, 12)">
+    <rect x="0" y="0" width="8" height="18" fill="#f26522" rx="1"/>
+    <rect x="10" y="0" width="8" height="18" fill="#00a859" rx="1"/>
+    <rect x="20" y="0" width="8" height="18" fill="#0072bc" rx="1"/>
+  </g>
+
+  <!-- Sidebar Nav Icons -->
+  <g transform="translate(14, 50)">
+    <path d="M4 12 L10 6 L16 12 V18 H13 V14 H7 V18 H4 Z" fill="#ffffff" opacity="0.6"/>
+  </g>
+  <g transform="translate(14, 85)">
+    <path d="M4 3 H13 L17 7 V19 H4 Z M12 3 V8 H17" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+  </g>
+  <g transform="translate(14, 120)">
+    <circle cx="10" cy="10" r="7" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <line x1="10" y1="9" x2="10" y2="14" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="10" cy="6" r="1" fill="#ffffff" opacity="0.6"/>
+  </g>
+
+  <!-- Highlighted Menu Item: Dieu chinh hoa don -->
+  <rect x="0" y="150" width="48" height="40" fill="#0050b3" />
+  <g transform="translate(14, 160)">
+    <path d="M3 14 L13 4 L16 7 L6 17 H3 Z M12 5 L15 8" fill="none" stroke="#ffffff" stroke-width="1.8"/>
+  </g>
+
+  <g transform="translate(14, 200)">
+    <circle cx="10" cy="10" r="7" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+    <path d="M7 10 L9 12 L13 8" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- TOP HEADER BAR -->
+  <g transform="translate(60, 16)">
+    <!-- Breadcrumb -->
+    <text x="0" y="12" fill="#8c8c8c" font-size="12">
+      <tspan fill="#8c8c8c">☰  Trang chủ  /  </tspan>
+      <tspan fill="#262626" font-weight="600">Điều chỉnh hóa đơn</tspan>
+    </text>
+
+    <!-- User Header Right -->
+    <g transform="translate(560, -4)">
+      <circle cx="14" cy="14" r="12" fill="#d9d9d9"/>
+      <path d="M8 20 C8 15, 20 15, 20 20" stroke="#8c8c8c" stroke-width="1.5" fill="none"/>
+      <circle cx="14" cy="11" r="3.5" fill="#8c8c8c"/>
+
+      <text x="32" y="10" fill="#262626" font-size="11" font-weight="700">46765 - Vương Uyển Đình</text>
+      <text x="165" y="10" fill="#1890ff" font-size="10">https://duocquocgia.com.vn</text>
+      <text x="32" y="24" fill="#595959" font-size="10">80000 - HO</text>
+      <text x="110" y="24" fill="#8c8c8c" font-size="10">Chưa có Tài khoản Dược Quốc gia</text>
+
+      <rect x="222" y="-2" width="38" height="22" rx="3" fill="#52c41a"/>
+      <text x="241" y="8" fill="#ffffff" font-size="8" font-weight="bold" text-anchor="middle">PROD</text>
+      <text x="241" y="17" fill="#ffffff" font-size="8" text-anchor="middle">v1.6.24</text>
+    </g>
+  </g>
+
+  <!-- SEPARATOR -->
+  <line x1="48" y1="44" x2="920" y2="44" stroke="#f0f0f0" stroke-width="1" />
+
+  <!-- BACK TO INVOICE NUMBER BAR -->
+  <g transform="translate(68, 62)">
+    <text x="0" y="0" fill="#1890ff" font-size="13" font-weight="bold">←  81163091821715853013923</text>
+    <path d="M210 -10 H218 V-2 H210 Z M210 -6 H218" fill="none" stroke="#1890ff" stroke-width="1.2"/>
+  </g>
+
+  <!-- EDIT FORM CONTAINER -->
+  <rect x="58" y="78" width="850" height="350" fill="#f5f5f5" rx="4" />
+
+  <g transform="translate(78, 96)">
+    <!-- Header Title -->
+    <text x="0" y="0" fill="#262626" font-size="12" font-weight="bold">Thông tin hoá đơn</text>
+
+    <!-- LEFT COLUMN EDITABLE FORM -->
+    <g transform="translate(0, 16)">
+      <!-- Field 1: Ten nguoi mua hang (Editable) -->
+      <text x="0" y="10" fill="#595959" font-size="11">Tên người mua hàng</text>
+      <rect x="0" y="16" width="400" height="26" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="33" fill="#262626" font-size="11" font-weight="500">Trương Trọng Tuấn</text>
+
+      <!-- Field 2: Ten don vi mua hang (Editable) -->
+      <text x="0" y="58" fill="#595959" font-size="11">Tên đơn vị mua hàng</text>
+      <rect x="0" y="64" width="400" height="42" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="82" fill="#262626" font-size="10" font-weight="500">CÔNG TY TNHH MỘT THÀNH VIÊN ĐIỆN LỰC ĐỒNG NAI</text>
+
+      <!-- Field 3: Email (Disabled) -->
+      <text x="0" y="122" fill="#bfbfbf" font-size="11">Email</text>
+      <rect x="0" y="128" width="400" height="26" rx="2" fill="#f0f0f0" stroke="#d9d9d9" stroke-width="1"/>
+
+      <!-- Field 4: Hinh thuc thanh toan (Disabled) -->
+      <text x="0" y="170" fill="#bfbfbf" font-size="11">Hình thức thanh toán</text>
+      <rect x="0" y="176" width="400" height="26" rx="2" fill="#f0f0f0" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="193" fill="#8c8c8c" font-size="11">Tiền mặt/Chuyển khoản</text>
+
+      <!-- Field 5: Ngay tao (Disabled) -->
+      <text x="0" y="218" fill="#bfbfbf" font-size="11">Ngày tạo</text>
+      <rect x="0" y="224" width="400" height="24" rx="2" fill="#f0f0f0" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="240" fill="#8c8c8c" font-size="11">16/05/2024</text>
+
+      <!-- Field 6: So giao dich phat sinh (Disabled) -->
+      <text x="0" y="262" fill="#bfbfbf" font-size="11">Số giao dịch phát sinh</text>
+      <rect x="0" y="268" width="400" height="24" rx="2" fill="#f0f0f0" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="284" fill="#8c8c8c" font-size="11">00095485</text>
+    </g>
+
+    <!-- RIGHT COLUMN EDITABLE FORM -->
+    <g transform="translate(420, 16)">
+      <!-- Field 7: So dien thoai doanh nghiep (Disabled) -->
+      <text x="0" y="10" fill="#bfbfbf" font-size="11">Số điện thoại doanh nghiệp</text>
+      <rect x="0" y="16" width="410" height="26" rx="2" fill="#f0f0f0" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="33" fill="#8c8c8c" font-size="11">0963989589</text>
+
+      <!-- Field 8: Dia chi (Editable) -->
+      <text x="0" y="58" fill="#595959" font-size="11">Địa chỉ</text>
+      <rect x="0" y="64" width="410" height="42" rx="2" fill="#ffffff" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="82" fill="#262626" font-size="10" font-weight="500">01, KP 1, đường Nguyễn Ái Quốc, Phường Tân Hiệp, Thành phố Biên Hòa, Tỉnh Đồng Nai.</text>
+
+      <!-- Field 9: Ma so thue (Disabled) -->
+      <text x="0" y="122" fill="#bfbfbf" font-size="11">Mã số thuế</text>
+      <rect x="0" y="128" width="410" height="26" rx="2" fill="#f0f0f0" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="145" fill="#8c8c8c" font-size="11">3600432744</text>
+
+      <!-- Field 10: Xuat hang tai kho (Disabled) -->
+      <text x="0" y="170" fill="#bfbfbf" font-size="11">Xuất hàng tại kho</text>
+      <rect x="0" y="176" width="410" height="26" rx="2" fill="#f0f0f0" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="193" fill="#8c8c8c" font-size="11">81163</text>
+
+      <!-- Field 11: Ngay hoan tat (Disabled) -->
+      <text x="0" y="218" fill="#bfbfbf" font-size="11">Ngày hoàn tất</text>
+      <rect x="0" y="224" width="410" height="24" rx="2" fill="#f0f0f0" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="240" fill="#8c8c8c" font-size="11">16/05/2024</text>
+
+      <!-- Field 12: Ky hieu hoa don (Disabled) -->
+      <text x="0" y="262" fill="#bfbfbf" font-size="11">Ký hiệu hoá đơn</text>
+      <rect x="0" y="268" width="410" height="24" rx="2" fill="#f0f0f0" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="10" y="284" fill="#8c8c8c" font-size="11">1C24MHC</text>
+    </g>
+
+    <!-- BOTTOM ACTION BUTTONS BAR -->
+    <g transform="translate(560, 304)">
+      <!-- Huy -->
+      <rect x="0" y="0" width="50" height="26" rx="3" fill="#f5f5f5" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="25" y="17" fill="#8c8c8c" font-size="11" text-anchor="middle">Hủy</text>
+
+      <!-- Luu (Active Blue Button) -->
+      <rect x="58" y="0" width="55" height="26" rx="3" fill="#e6f7ff" stroke="#91d5ff" stroke-width="1"/>
+      <text x="85" y="17" fill="#1890ff" font-size="11" font-weight="bold" text-anchor="middle">Lưu</text>
+
+      <!-- Xem hoa don (Disabled) -->
+      <rect x="121" y="0" width="90" height="26" rx="3" fill="#f5f5f5" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="166" y="17" fill="#bfbfbf" font-size="11" text-anchor="middle">Xem hoá đơn</text>
+
+      <!-- Hoan tat (Disabled) -->
+      <rect x="219" y="0" width="70" height="26" rx="3" fill="#f5f5f5" stroke="#d9d9d9" stroke-width="1"/>
+      <text x="254" y="17" fill="#bfbfbf" font-size="11" text-anchor="middle">Hoàn tất</text>
+    </g>
+  </g>
+</svg>

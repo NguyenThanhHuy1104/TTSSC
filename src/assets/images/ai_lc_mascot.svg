@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="50%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#1e3a8a" />
+    </linearGradient>
+    <linearGradient id="helmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="40%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="faceGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0f9ff" />
+    </linearGradient>
+    <linearGradient id="earGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0f172a" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Background Circle / Rounded Backing -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  
+  <!-- Subtle wave backdrop -->
+  <path d="M0 380 Q 256 320 512 400 L 512 512 L 0 512 Z" fill="#ffffff" fill-opacity="0.12" />
+
+  <!-- Stars in background -->
+  <path d="M 64 70 L 68 85 L 83 89 L 68 93 L 64 108 L 60 93 L 45 89 L 60 85 Z" fill="#facc15" />
+  <path d="M 440 90 L 443 100 L 453 103 L 443 106 L 440 116 L 437 106 L 427 103 L 437 100 Z" fill="#facc15" />
+
+  <!-- Waving Left Arm & Hand (robot's left = right of canvas) -->
+  <g id="wavingHand">
+    <!-- Arm -->
+    <path d="M 330 310 C 370 290 410 270 425 245 C 435 228 425 210 405 220 C 390 230 350 265 330 285" fill="#2563eb" stroke="#1d4ed8" stroke-width="4" />
+    <!-- Hand Palm -->
+    <circle cx="430" cy="235" r="28" fill="#2563eb" />
+    <!-- Fingers -->
+    <rect x="410" y="195" width="12" height="32" rx="6" fill="#2563eb" transform="rotate(-15 410 195)" />
+    <rect x="428" y="190" width="12" height="34" rx="6" fill="#2563eb" transform="rotate(2 428 190)" />
+    <rect x="446" y="196" width="12" height="30" rx="6" fill="#2563eb" transform="rotate(18 446 196)" />
+    <rect x="460" y="212" width="11" height="24" rx="5" fill="#2563eb" transform="rotate(38 460 212)" />
+    <!-- Thumb -->
+    <rect x="396" y="222" width="11" height="22" rx="5.5" fill="#1d4ed8" transform="rotate(-50 396 222)" />
+  </g>
+
+  <!-- Right Arm (robot's right = left of canvas) -->
+  <g id="rightHand">
+    <path d="M 175 320 C 130 330 95 340 85 365 C 75 385 100 395 115 385 C 135 370 160 345 180 330" fill="#2563eb" stroke="#1d4ed8" stroke-width="4" />
+    <circle cx="95" cy="375" r="24" fill="#2563eb" />
+    <rect x="80" y="365" width="10" height="22" rx="5" fill="#1d4ed8" transform="rotate(30 80 365)" />
+  </g>
+
+  <!-- Mascot Body / White Lab Coat (Áo blouse dược sĩ) -->
+  <g id="bodyCoat" filter="url(#softShadow)">
+    <!-- Base Coat Shape -->
+    <path d="M 160 320 C 140 400 120 480 140 512 L 372 512 C 392 480 372 400 352 320 Z" fill="#ffffff" />
+    
+    <!-- Lab Coat Collar / Lapels -->
+    <path d="M 215 300 L 256 375 L 185 355 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+    <path d="M 297 300 L 256 375 L 327 355 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2" />
+
+    <!-- Inner Blue Shirt -->
+    <polygon points="230,305 256,360 282,305" fill="#1d4ed8" />
+
+    <!-- Pockets -->
+    <rect x="175" y="440" width="46" height="42" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2.5" />
+    <rect x="291" y="440" width="46" height="42" rx="8" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="2.5" />
+
+    <!-- Long Chau Logo & Brand on Lab Coat -->
+    <!-- FPT Retail 3 colored squares -->
+    <rect x="238" y="386" width="6" height="10" rx="1.5" fill="#ea580c" transform="skewX(-15)" />
+    <rect x="247" y="386" width="6" height="10" rx="1.5" fill="#16a34a" transform="skewX(-15)" />
+    <rect x="256" y="386" width="6" height="10" rx="1.5" fill="#0284c7" transform="skewX(-15)" />
+    <text x="268" y="394" font-family="system-ui, -apple-system, sans-serif" font-size="6.5" font-weight="700" fill="#64748b">FPT Retail</text>
+
+    <!-- NHÀ THUỐC LONG CHÂU Text -->
+    <text x="256" y="410" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800" fill="#1e3a8a" letter-spacing="0.5">NHÀ THUỐC</text>
+    <text x="256" y="424" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="900" fill="#1e3a8a" letter-spacing="0.8">LONG CHÂU</text>
+  </g>
+
+  <!-- Head / Helmet & Face -->
+  <g id="headMascot" filter="url(#softShadow)">
+    <!-- White Side Ear Pods / Headphones -->
+    <ellipse cx="120" cy="205" rx="30" ry="46" fill="url(#earGrad)" stroke="#cbd5e1" stroke-width="3" />
+    <ellipse cx="120" cy="205" rx="18" ry="30" fill="#f8fafc" />
+
+    <ellipse cx="392" cy="205" rx="30" ry="46" fill="url(#earGrad)" stroke="#cbd5e1" stroke-width="3" />
+    <ellipse cx="392" cy="205" rx="18" ry="30" fill="#f8fafc" />
+
+    <!-- Main Blue Robot Helmet -->
+    <rect x="125" y="60" width="262" height="255" rx="120" fill="url(#helmGrad)" />
+    <path d="M 155 85 C 210 65 302 65 357 85 C 375 92 360 70 320 62 C 260 52 200 56 155 85 Z" fill="#ffffff" fill-opacity="0.3" />
+
+    <!-- Face Visor / Plate -->
+    <rect x="155" y="95" width="202" height="190" rx="90" fill="url(#faceGrad)" stroke="#1d4ed8" stroke-width="6" />
+
+    <!-- Cheeks (Blushing Pink) -->
+    <ellipse cx="192" cy="225" rx="20" ry="12" fill="#fb7185" fill-opacity="0.75" />
+    <ellipse cx="320" cy="225" rx="20" ry="12" fill="#fb7185" fill-opacity="0.75" />
+
+    <!-- Cute Big Sparkling Eyes (Diamond Star Eyes) -->
+    <!-- Left Eye -->
+    <ellipse cx="205" cy="175" rx="28" ry="36" fill="#0f172a" />
+    <!-- Sparkle Diamond 4-point Star inside Left Eye -->
+    <path d="M 205 146 Q 205 175 222 175 Q 205 175 205 204 Q 205 175 188 175 Q 205 175 205 146 Z" fill="#ffffff" />
+    <circle cx="218" cy="188" r="4.5" fill="#ffffff" />
+
+    <!-- Right Eye -->
+    <ellipse cx="307" cy="175" rx="28" ry="36" fill="#0f172a" />
+    <!-- Sparkle Diamond 4-point Star inside Right Eye -->
+    <path d="M 307 146 Q 307 175 324 175 Q 307 175 307 204 Q 307 175 290 175 Q 307 175 307 146 Z" fill="#ffffff" />
+    <circle cx="320" cy="188" r="4.5" fill="#ffffff" />
+
+    <!-- Big Happy Smiling Open Mouth -->
+    <path d="M 226 215 C 226 255 286 255 286 215 Z" fill="#be123c" stroke="#881337" stroke-width="2" />
+    <!-- Tongue inside mouth -->
+    <path d="M 238 234 C 246 226 266 226 274 234 C 265 248 247 248 238 234 Z" fill="#fb7185" />
+  </g>
+</svg>

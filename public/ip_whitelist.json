@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "whitelist": [
+    {
+      "id": "ip-admin-main",
+      "ip": "118.69.12.170",
+      "label": "IP Quản trị viên (Admin)",
+      "createdAt": "2026-10-06T03:32:17.333Z"
+    }
+  ],
+  "updatedAt": "2026-10-06T08:41:00.000Z"
+}
